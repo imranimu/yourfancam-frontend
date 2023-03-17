@@ -1,0 +1,114 @@
+#headerWrap{
+	position: relative;
+}
+
+.MainHeaderWrap {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 10px 40px;
+    z-index: 99;
+}
+
+.SliderWrap{
+    height: 900px;
+    overflow: hidden;
+}
+
+.VideoPlayer{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.PalyerMobile.VideoPlayer{
+    display: none;
+}
+
+.SliderWrap .sliderImage{
+	min-height: 900px;
+	object-fit: cover;
+}
+
+.SliderContent {
+    position: absolute;
+    top: 290px;
+    width: 100%;
+}
+
+.SearchFormGroup{
+	position: relative;
+}
+
+.SearchFormGroup i {
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.SearchFormGroup input {
+    background: rgba(250,250,250, 0.2);
+    color: #fff;
+    border: none;
+    padding: 0px 21px 0 55px;
+    height: 68px;
+    border-radius: 4px;
+    width: 35%;
+    margin-bottom: 25px;
+}
+
+/* .SliderContent h1 {
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 30px;
+} */
+
+.SliderContent h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 255px;
+    text-shadow: 5px 3px 10px #000;
+    font-family: 'LemonMilk', serif;
+}
+
+.SliderContent h2 {
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+.SliderContent h1, .SliderContent h3{
+	color: #ffffff;
+} 
+
+.BannerLessHeader{
+    min-height: 89px;
+    background-color: #2b2c31;
+}
+
+@media (max-width: 990px) {
+    .VideoPlayer{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .SearchFormGroup input{
+        width: 100%;
+    }
+
+    .PalyerMobile.VideoPlayer{
+        display: block;
+    }
+
+    .DesktopPlayer.VideoPlayer{
+        display: none;
+    }
+
+    .SliderContent h1 {
+        margin-bottom: 130px;
+    }
+
+}

@@ -1,0 +1,11 @@
+.ArchiveTabsWrap{
+    color: #ffffff;    
+    background-color: #19191b;
+}
+
+.TabsNavWrap{
+    background: rgb(50,51,56);
+    background: linear-gradient(0deg, rgba(50,51,56,1) 0%, rgba(41,42,47,1) 50%, rgba(36,37,42,1) 100%);
+    border-bottom: 3px solid #454752;
+    /* margin-bottom: 55px; */
+}

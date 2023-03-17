@@ -1,0 +1,52 @@
+.VideoSendWrap{
+    background: #2b2c32;
+    padding: 30px 35px;
+    margin-bottom: 20px;
+    min-height: 258px;
+} 
+
+.VideoTitle{     
+    margin-bottom: 30px;
+}
+
+.VideoTitle h2{
+    font-size: 20px;
+    margin-bottom: 15px;    
+} 
+
+.VideoThum, .VideoTitle{
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.WatingText  {
+    color: #bcbbbd;
+    font-size: 18px;    
+}
+
+.WatingText .UploadVideo{
+    background-color: #08c2df;
+}
+.WatingText button{
+    padding: 10px 25px;
+    border: none;
+}
+
+.WatingText .UploadVideo i{
+    margin-right: 15px;
+}
+.WatingText .StartConversation{
+    background-color: #46474e;
+}
+
+.VideoTitle h2 span{
+    padding: 10px 20px 13px;
+    background:#2b2c32;
+    border: 1px solid #626262;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}

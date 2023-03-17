@@ -1,0 +1,399 @@
+.ConversationsWrap{
+    height: calc(100vh - 212px);      
+}
+
+.ConversationsHeader{
+    padding: 0 15px 0 0;
+}
+
+.ButtonWrap{ 
+    text-align: center;
+    background: #24252a;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #3b3b3b;
+    margin-bottom: 25px;
+}
+
+.ButtonWrap button{
+    width: 48%;
+    margin-right: 4%;
+    padding: 10px 0;
+    background: #2a2b30;
+    border-radius: 8px;
+    border-color: #3b3b3b;
+}
+
+.ButtonWrap button.Active{
+    background: #08c2df;
+    border-color: #08c2df;
+}
+
+.ButtonWrap button:nth-child(2){
+    margin-right: 0px;
+}
+
+.SearchFormGroup{
+    margin-bottom: 15px;
+    background-color: #2b2c33;
+    border-radius: 50px;
+}
+.SearchFormGroup i{
+    font-size: 22px;
+    padding-left: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.SearchFormGroup input{
+    background: no-repeat;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.ConversationsContent ul{
+    width: 100%;    
+    padding-bottom: 0px;
+    margin: 0;
+}
+.ConversationsContent ul li{
+    background-color: #33343b;
+    padding: 15px 20px;
+    border-bottom: 1px solid #49494c;
+    border-right: 5px solid transparent;
+}
+
+.ConversationsContent ul li.Active{
+    border-color: #08c2df; 
+}
+
+.ConversationsContent ul li:nth-child(2n) {
+    background-color: #2d2e34;
+}
+
+.ConversationsContent ul li a{
+    color: #ffffff;
+    display: block;
+}
+
+.ConversationsContent ul li a img{
+    display: inline-block;
+    width: 55px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.ConversationsContent ul li .ChatListContent{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ConversationsContent ul li .ChatListContent h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ConversationsContent ul li .ChatListContent p{
+    margin: 0px;
+    font-size: 15px;
+}
+
+.ConversationsContent ul li .ChatListContent p span{
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    background-color: #f34646;
+    border-radius: 100%;
+    margin-left: 8px;
+}
+
+.NewMessage{
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000);
+    height: 90px;
+}
+
+.NewMessage button, .NewMessage a{
+    margin-top: 20px;
+    padding: 14px 40px;
+    border: none;
+    background: #08c2df;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.NewMessage a:hover{
+    color: #ffffff;
+}
+
+.NewMessage button i{
+    margin-right: 15px;
+}
+.RequestMessage{
+    width: 46.5%;
+}
+.RequestMessage a, .RequestMessage button{
+    font-size: 18px;
+    padding: 20px 60px;
+}
+
+.ChatWrap{
+    padding: 30px 30px 10px;
+}
+
+.ProfileHeader{
+    margin-bottom: 30px;
+}
+
+.ProfileHeader .ProfileHeaderImage{
+    margin-right: 15px;
+    width: 60px;
+    position: relative;
+}
+
+.ProfileHeader .ProfileHeaderImage span{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #31de5c;
+    border: 2px solid #24252a;
+    border-radius: 100%;
+    margin-left: 8px;
+    position: absolute;
+    right: -3px;
+    top: 5px;
+}
+
+.ProfileHeader .ChatListContent h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ProfileHeader .ChatListContent a{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.ProfileHeader .ChatListContent, .ProfileHeader .ProfileHeaderImage{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ChatContentWrap{
+    height: calc(100vh - 450px);
+    overflow-y: auto;
+}
+
+.VideoChatContentWrap{
+    height: calc(100vh - 424px);
+}
+
+.Time:before{
+    height: 2px;
+    content: "";
+    width: 100%;
+    background: #4c4e5c;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.Time{
+    color: #d8d8d8; 
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.Time span {
+    background: #24252a;
+    z-index: 9;
+    position: relative;
+    padding: 0 40px;
+    font-size: 14px;
+}
+
+.Time span i{
+    color: #5b5b5f;
+    margin-right: 15px;
+}
+
+.ChatFormGroup{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ChatFormGroup input{
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid #3b3b3b;
+    background: #18181b;
+    color: #fff;
+}
+
+.ChatFormGroup button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #08c2df;
+    color: #fff;
+    border: none;
+    height: 40px;
+    padding: 6px 20px 8px;
+    border-radius: 7px;
+}
+
+.ChatFormGroup button i{
+    font-size: 14px;
+}
+
+.ChatFooter ul{
+    margin-bottom: 0px;
+}
+
+.ChatFooter ul li{
+    display: inline-block;
+}
+
+.ChatFooter ul li a{
+    color: #ffffff;
+    padding: 0 8px;
+}
+
+.chatBoxWrap{
+    width: 100%;
+    margin-bottom: 25px;
+    float: right;
+}
+
+.ChatBox{    
+    display: inline-block;
+    width: calc(55% - 95px);
+    margin-right: 20px;
+}
+
+.ChatBoxLeft .ChatBox{ 
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+.ChatBoxLeft .ChaoxSelfies{
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.ChaoxSelfies{
+    width: calc(80% - 50px);
+}
+
+.ChaoxSelfies .ChatBoxText:before{
+    content: "";
+    position: absolute;
+    right: -12px;
+    top: 0;
+    background: url("/images/v-001.png");
+    width: 12px;
+    height: 19px;
+}
+
+.ChaoxSelfies .ChatBoxText {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+    position: relative;
+    border-radius: 10px 0 10px 10px;
+    background: #2b2c32;
+}
+
+.ChatBoxLeft .ChaoxSelfies img{
+    width: 150px;
+}
+
+.ChatBoxRight .ChaoxSelfies img{
+    width: 230px;
+}
+
+.ChatBoxLeft .ChaoxSelfies .ChatBoxText:before{
+    background: url("/images/v-002.png");
+    right: auto;
+    left: -12px;
+    height: 10px;
+}
+
+.ChatBoxLeft .ChaoxSelfies .ChatBoxText{
+    margin-right: 0;
+    margin-left: 25px;
+    border-radius: 0 10px 10px 10px;
+}
+
+.VideoChatContentWrap .chatBoxWrap{
+    width: 100%;
+}
+
+.ChatBoxText{
+    background: #33343b;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.ChatBoxText span{
+    font-size: 14px;
+    color: #adadb0;
+}
+
+.SenderProfile{
+    width: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.SenderChatBoxWrap{
+    float: left;
+    width: 70%;
+}
+
+.SenderChatBoxWrap .ChatBoxText{
+    background-color: #08c2df;
+} 
+
+.SenderChatBoxWrap .ChatBox{    
+    display: inline-block;    
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.SenderChatBoxWrap .ChatBoxText span{
+    color: #ffffff;
+}
+
+.ReciverChatBoxWrap{
+    text-align: right;
+}
+ 
+.senderVideoWrap{
+    position: relative;
+    width: 120px;
+}
+
+body img.PalyIconSmall{
+    width: 60px;
+    padding: 10px;
+}
+
+.ChatBoxRight{
+    text-align: right;
+}
+
+.ChatTimeDate{
+    margin-bottom: 10px;
+    display: block;
+}

@@ -1,0 +1,435 @@
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 1756px) {
+	/* .header_right{
+		width: 23%;
+	}
+	.header_center {
+	    width: 45%;	 
+	    margin: 0 auto;
+	} */
+}
+
+@media (max-width: 1623px) {	
+
+	.container.bigContainer {
+	    width: 100%;
+	}
+
+	.MentorsWrap {
+	    width: 17.7%;
+	}
+
+	ul.FilterNav li::before{
+		width: 180px;
+	}
+
+	ul.FilterNav li { 
+	    padding: 0 100px; 
+	}
+
+	ul.FilterNav li:first-child::before{
+		right: -93px;
+		top: 16px;
+	}
+
+	ul.FilterNav li:nth-child(2)::before {	    
+	    right: -95px;
+	    top: 55px;
+	}
+
+	ul.FilterNav li:nth-child(3)::before {	    
+	    right: -95px;
+	    top: 20px;
+	}
+
+	.serviceItem{
+		padding-right: 40px; 
+		padding-left: 40px;
+	}
+
+	/* .header_left { 
+	    width: 270px; 
+	} */
+
+	.header_center {
+	    width: 40%; 
+	}
+	
+	ul.mainMenu li a {	 
+	    padding: 26px 16px;	 
+	    font-size: 15px;
+	}
+
+	/* .header_right {
+	    width: 306px;
+	} */
+}
+
+@media (max-width: 1488px) {	
+	.MentorsWrap {
+	    width: 17.4%;
+	}
+}
+@media (max-width: 1320px) {		 
+	.MentorsWrap {
+	    width: 16.97%;
+	}
+
+	.MentorsContent h4{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1140px) {
+
+	/* .header_left {
+	    width: 20%;
+	}
+
+	.header_center {
+	    width: 45%;
+	}
+
+	.header_right {
+	    width: 245px;
+	    text-align: right;
+	} */
+
+	.header_right ul li a{
+		margin-left: 5px; 
+		margin-right: 5px; 
+	}
+
+	.SliderContent { 
+	    width: 90%;
+	    left: 5%;
+	}
+
+	.MentorsWrap {
+	    width: 16.62%;
+	}
+
+	.MentorsContent h4 {
+	    font-size: 16px;
+	}
+
+	ul.FilterNav li {
+	    padding: 0 75px;
+	}
+
+	ul.FilterNav li::before {
+	    width: 130px;
+	}
+
+	ul.FilterNav li:first-child::before {
+	    right: -67px; 
+	}
+
+	ul.FilterNav li:nth-child(2)::before {
+	    right: -72px;
+	    top: 43px;
+	}
+
+	ul.FilterNav li:nth-child(3)::before {
+	    right: -72px;
+	    top: 8px;
+	}
+
+	.serviceItem {
+	    padding-right: 25px;
+	    padding-left: 25px;
+	}
+
+	ul.FooteMenu li a{
+		padding: 20px 35px;
+	}
+
+	/*
+	## Profile Page 
+	************************/
+	.ProfileReportBox, .columnBox {
+	    width: 32%;
+	}
+
+	.columnBox .mainTitle{
+		font-size: 24px;
+	}
+
+	.PopularMentorsWrap.MyVideoOverlay{
+		margin-top: -180px;
+	}
+
+}
+@media (max-width: 998px) {	 
+
+	.header_left {
+	    width: 32%;
+	}
+
+	.header_right {
+	    width: 66%;
+	}
+
+	.header_right ul li.mobileNavIcon {
+	    display: inline-block;
+	    color: #ffffff;
+	    font-size: 25px;
+	    margin-left: 25px;
+	    vertical-align: middle;
+	}
+
+	.mentorsTable table tr th, .mentorsTable table tr td{
+		font-size: 14px; 
+	}	 
+
+	.header_center{
+		display: none;
+	}
+
+	.MentorsWrap {
+	    width: 28.8%;
+	    margin-bottom: 40px;
+	}
+
+	ul.FilterNav li {
+	    padding: 0 38px;
+	}
+
+	ul.FilterNav li::before{
+		display: none;
+	}
+
+	.serviceItem {
+		padding-top: 30px;
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+
+	.serviceItem img {
+	    margin-bottom: 60px;
+	}
+
+	.serviceItem p {	    
+	    font-size: 14px;
+	}
+
+	ul.FooteMenu li a {
+	    padding: 20px 20px;
+	    font-size: 20px;
+	}
+
+
+	/*
+	## Profile Page
+	*******************/
+	.ProfileImage{
+		width: 145px;
+	}
+
+}
+
+@media (max-width: 767px) {	 
+
+	/* .header_left {
+	    width: 28%;
+	    padding: 10px 0px;
+	}
+
+	.header_right {
+	    width: 70%;
+	} */
+
+	.header_right ul li a {
+	    margin-left: 0;
+	    margin-right: 0;
+	    margin-top: 0;
+	}
+
+	.header_right ul li.mobileNavIcon {	     
+	    margin-left: 10px;
+	    vertical-align: sub;
+	}
+
+	.SearchFormGroup input{
+		width: 100%;
+	}
+
+	.SliderContent h1{
+		font-size: 50px;
+	}
+
+	.SliderContent h3 {
+	    font-size: 13px;
+	}
+
+	.mainTitle{
+		font-size: 25px;
+	}
+
+	.PopularMentors{
+		text-align: center;
+	}
+
+	.MentorsWrap {
+	    width: 90%;	    
+	    margin-left: 0px; 
+	    margin-right: 0px;
+	}
+
+	.MentorsContent {	    
+	    text-align: left;
+	}
+
+	ul.FilterNav{
+		display: none;
+	}
+
+	.serviceItem{
+		padding-left: 50px; 
+		padding-right: 50px;
+	}
+
+	.serviceItem p {
+	    font-size: 18px;
+	}
+
+	.mentorsTable table tr th, .mentorsTable table tr td {
+	    font-size: 9px;
+	}
+
+	.mentorsTable table tr td.MenterName {
+	    font-size: 11px; 
+	}
+
+	.SignUpWrap p {
+    	width: 80%;
+    }
+
+    ul.FooteMenu li a {
+	    padding: 20px 8px;
+	    font-size: 14px;
+	}
+
+	.VideoContentThum ul li{
+		width: 23.6%; 
+	}
+
+	/*
+	## Profile Page
+	********************/
+	.SliderContent h1 {
+	    font-size: 30px;
+	}
+
+	.InfoRight{
+		float: left;
+	}
+
+	.ProfileReportBox, .columnBox {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+
+	.PopularMentorsWrap.MyVideoOverlay {
+	    margin-top: -80px;
+	}
+
+	.MyVideoOverlay .MentorsWrap{
+		width: 70%;
+		margin-bottom: 30px;
+	}
+
+}
+@media (max-width: 558px) { 
+
+	.header_left{
+		margin-bottom: 15px;
+	}
+
+	.header_left, .header_right{
+		width: 100%; 
+	}
+
+	.header_left, .header_right ul{
+		text-align: center;
+	}
+}
+
+@media (max-width: 540px) { 
+
+	.VideoContentThum ul li {
+	    width: 48%;
+	}
+
+}
+
+@media (max-width: 452px) { 
+
+	.MainHeaderWrap { 
+	    padding: 10px 20px;
+	}
+
+	.header_left {
+	    width: 100%;
+	    padding: 0px 0px 15px;
+	    text-align: center;
+	}
+
+	.header_right {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	button.CustomButton{
+		width: 260px;
+	}
+
+	.SliderContent h1 {
+	    font-size: 33px;
+	}
+
+	.FooterInfo {
+	    width: 100%;
+	}
+
+	.AppDownloadWrap span{
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	.CurrentStatus span::before {
+	    margin-right: 0;
+	}
+
+	.CurrentStatus span{
+		font-size: 8px;
+		padding: 8px 3px;
+	}
+
+	.socialActivityWrap ul.socialActivity li a {
+	    color: #ffffff;
+	    padding: 0 10px;
+	}
+
+	.SliderContent h1{
+		font-size: 20px; 
+	}
+
+	.ProfileImage img{
+		margin-top: -50px;
+	}
+
+	.AboutProfile span{
+		font-size: 12px;
+	}
+
+	.MyVideoOverlay .MentorsWrap{
+		width: 90%;
+	}
+
+}
+
+ 
+

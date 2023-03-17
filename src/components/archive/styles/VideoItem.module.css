@@ -1,0 +1,86 @@
+.VideoSendWrap{
+    background: #2b2c32;
+    padding: 30px 35px;
+    margin-bottom: 20px; 
+    text-align: left;
+    position: relative;
+} 
+.VideoThum{
+    width: 120px;
+    margin-right: 20px; 
+}
+
+.VideoTitle{
+    width: 65%;    
+}
+
+.VideoThum video{
+    width: 100%;
+} 
+
+.VideoTitle h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+.VideoTitle span{
+    color:#9e9ea2;
+}
+.SentToProfile img{
+    width: 45px; 
+    margin-right: 15px;
+    border-radius: 100%;
+    height: 45px;
+    object-fit: cover;
+}
+.SentToProfile h3{    
+    margin-bottom: 0;
+    font-size: 23px;
+}
+
+.SentToProfile img, .SentToProfile h3, .VideoThum, .VideoTitle{
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.Status p, .SentTo p{
+    color: #bcbbbd;
+}
+
+.Status span{
+    background: #2b3d35;
+    padding: 10px 25px 12px;
+    display: inline-block;
+    border-radius: 9px;
+    line-height: normal;
+    color: #32f662;
+}
+
+.SentTo, .Status{
+    float: left;
+    width: 50%;
+}
+
+.Status ul{
+    margin: 30px 0 0!important;
+}
+
+.VideoItemWrap{}
+
+.VideoItemWrapRight{
+    text-align: right;
+}
+
+.ProfileAvater{
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.ProfileInfoMsg{
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 25px;
+}

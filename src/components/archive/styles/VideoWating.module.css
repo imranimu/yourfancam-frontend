@@ -1,0 +1,43 @@
+.VideoSendWrap{
+    background: #2b2c32;
+    padding: 30px 35px;
+    margin-bottom: 20px;
+} 
+.VideoThum{
+    width: 100px;
+    margin-right: 20px; 
+}
+
+.VideoTitle{
+    width: 65%;    
+}
+
+.VideoThum, .VideoTitle{     
+    margin-bottom: 25px;
+}
+
+.VideoTitle h2{
+    font-size: 16px;
+    margin-bottom: 0.5rem;    
+} 
+
+.VideoThum, .VideoTitle{
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.WatingText p {
+    color: #bcbbbd;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.WatingTime p{
+    padding: 10px 30px 13px;
+    background: #35363d;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}

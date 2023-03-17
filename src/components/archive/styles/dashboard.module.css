@@ -1,0 +1,33 @@
+.DBFilterWrap{
+    
+}
+
+.VideoSendingLeft, .VideoSendingRight{
+    width: 50%;
+    float: left;
+    padding: 50px 0px 20px;
+}
+
+.VideoSendingRight{
+    border-left: 2px solid #47484d;
+}
+
+.VideoSendingLeft h4, .VideoSendingRight h4{
+    margin-bottom: 25px;
+    padding-left: 35px;
+    font-size: 20px;
+}
+.VideoSendingRight h4 span, .VideoSendingLeft h4 span{
+    font-weight: bold;
+    padding: 8px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
+.VideoSendingLeft h4 span{
+    background: #2662ec;
+}
+
+.VideoSendingRight h4 span{
+    background:#31de5c;
+}

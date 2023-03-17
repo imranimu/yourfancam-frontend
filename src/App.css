@@ -1,0 +1,2380 @@
+/*------------------------------------------------------------------
+[ M a s t e r   S t y l e s h e e t ]
+Project		: 	"You fan cam"       
+Version		:	1.0	 
+-------------------------------------------------------------------*/
+/* # R e s e t   &   B a s i c s   ( I n s p i r e d   b y   E .   M e y e r s )
+================================================================================== */
+
+.container.w-100{
+  max-width: 100%;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, 
+strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, 
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, 
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, 
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+
+h1{
+	
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block; 
+}
+
+#wrapper, body {
+	line-height: 1; 
+	background: #24252a;
+}
+
+ol, ul {
+	list-style: none; 
+}
+
+blockquote, q {
+	quotes: none; 
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none; 
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0; 
+}
+
+/*= = = = =  G L O B A L  = = = = =*/
+
+body {
+	margin:0 auto;
+	padding:0;
+	line-height:22px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+*:focus {
+	outline:none; 
+}
+
+form{ 
+	margin:0; padding:0;
+}
+
+.clear{
+	clear: both; 
+}
+
+/*= = = = = E N D   G L O B A L  = = = = =*/
+/*= = = = = D E F A U L T   E L E M E N T   S T Y L E S  = = = = =*/
+/*= = = = L i n k s = = = =*/
+a, a:visited {
+	text-decoration:none;
+}
+
+body a:hover{
+	text-decoration :none;
+}
+
+a img{
+	border:none
+}
+
+img{
+	max-width: 100%; 
+}
+
+/* = = = = L i s t s ,  B l o c k q u o t e s  a n d   p a r a g r a p h s = = = =*/
+
+ul {
+	list-style: none;
+	display: inline-block;
+}
+
+ol {
+	list-style: decimal;	
+}
+
+ol ol {
+	list-style: upper-alpha;
+}
+
+ol ol ol {
+	list-style: lower-roman;
+}
+
+ol ol ol ol {
+	list-style: lower-alpha;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-bottom: 0;
+}
+
+p{
+	margin-bottom: 15px;
+}
+
+/*= = = = = E N D   O F   D E F A U L T   E L E M E N T   S T Y L E S = = = = =*/
+/*= = = = =  
+	C u s t o m   S T Y L E S 
+= = = = = */
+/*= = = = = P a d d i n g   A n d   M a r g i n = = = = =*/
+
+.first{
+	padding-left: 0px!important; 
+}
+
+.mt{
+	margin-top: 25px; 
+}
+
+.mb{
+	margin-bottom: 25px; 
+}
+
+.content_pt{
+	padding-top: 25px; 
+}
+
+.content_pb{
+	padding-bottom: 25px; 
+}
+
+.pn{
+	padding: 0px!important; 
+}
+
+/* = = = = P a r a g r a p h = = = = =*/ 
+
+a, .mentorsTable table tr, .columnBox a.CustomButton, .sideMenuWrap ul li.react-tabs__tab{
+	-moz-transition: all .5s ease-out; 
+	-webkit-transition: all .5s ease-out; 
+	-o-transition: all .5s ease-out;
+}
+
+/*= = = = =  
+	End C u s t o m   S T Y L E S 
+= = = = = */
+
+.containerMax{
+	max-width: 1170px;
+}
+
+/* #headerWrap{
+	position: relative;
+}
+
+.MainHeaderWrap {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 10px 40px;
+} */
+
+.header_left {
+    width: 15%;
+    margin-right: 2%;
+}
+
+.header_center {
+    width: 63%;
+    text-align: right;
+}
+
+ul.mainMenu{
+	margin-bottom: 0px;
+}
+
+ul.mainMenu li{
+	display: inline-block;
+}
+
+ul.mainMenu li a{
+	color: #ffffff; 
+	display: block;
+	font-weight: bold;
+}
+
+ul.mainMenu li a:hover{
+	color: #04c7d5; 
+}
+
+.header_right{
+	/* width: 20%; */
+	width: 83%;
+}
+
+.header_right ul{
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: right;
+}
+
+.header_right ul li{
+	display: inline-block;
+}
+
+.header_right ul li a {
+    color: #ffffff;
+    padding: 10px 12px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+ul.mainMenu li a{	
+	padding: 26px 15px; 	
+}
+
+.header_right ul.mainMenu li a{	
+	padding: 15px; 	
+}
+
+.header_right ul.mainMenu li a i{
+	margin-right: 6px;
+	font-size: 21px;
+	vertical-align: top;
+}
+
+.header_right ul li.notification{
+	position: relative;
+}
+
+.header_right ul li.notification span {
+    height: 10px;
+    width: 10px;
+    background: #ff3a70;
+    border: 2px solid #000;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    border-radius: 100%;
+}
+
+.header_right ul li.profileMenu span{
+	margin: 0 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header_right ul li.profileMenu span img{
+	border-radius: 50px;
+	width: 49px; 
+	height: 49px; 
+	object-fit: cover;
+	border: 1px solid #484848;
+}
+
+
+button.CustomButton, a.CustomButton {
+    background: #09c2e0;
+    height: 68px;
+    border: none;
+    width: 315px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.CustomButton span, .CustomButton img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@media (min-width: 1200px) {
+  	.container.bigContainer{
+    width: 1350px;
+    max-width: 1350px;
+	}
+}
+
+.FeaturesWrap{
+	margin-top: -130px;
+	margin-bottom: 60px;
+}
+
+.FeaturesWrap h3{
+	font-size: 1.75rem;
+}
+
+.PopularMentorsWrap {
+    /* margin-top: -230px; */
+    position: relative;
+    z-index: 9;
+    margin-bottom: 50px;
+}
+
+.mainTitle {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.MentorsWrap{
+	width: 230px;
+	display: inline-block;
+	margin: 0 15px 30px;
+	vertical-align: top;
+}
+
+.MentorsImageWrap{
+	position: relative;
+	width: 100%;	
+}
+
+.MentorsImageWrap img{
+	width: 100%;
+}
+
+.OverlayContent{
+	position: absolute;
+	top: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.OverlayContent p{
+	position: absolute;
+}
+
+.OverlayContent p.Time{
+	top: 22px;
+	left: 15px;
+}
+.OverlayContent p.Status{
+	right: 15px;
+	top: 22px;
+	color: #4af653;
+}
+.OverlayContent p.PalyButton {
+    top: 42%;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+img.PalyIcon {
+    width: auto;
+    background: rgba(250,250,250,0.3);
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.OverlayContent p.price {
+    bottom: 0;
+    left: 18px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.MentorsContent{
+	color: #ffffff;
+}
+
+.MentorsContent h4 {
+    font-weight: bold;
+    margin: 15px 0 10px;
+    font-size: 24px;
+}
+
+.MentorsContent p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.MentorsContent a{
+	color: #ffffff; 
+}
+
+.MentorsContent a span{
+	display: inline-block;
+	margin-right: 10px; 
+	text-decoration: underline;
+}
+
+.MentorsContent a i{
+	color: #28b4cd;
+}
+
+.BrowseMentorsWrap{
+	margin-bottom: 80px; 
+}
+
+.mentorsTable table tr.THead:hover{
+	background: none;
+}
+.mentorsTable table tr.THead th img{
+	vertical-align: text-top;
+	width: 22px;
+} 
+.mentorsTable .mentorsTableSearchWrap a.MoreButton{
+	vertical-align: middle;
+	margin: 0px;	
+	color: #00c6e4;
+	font-size: 22px;
+	display: inline-block;	
+}
+.mentorsTable .mentorsTableSearchWrap form{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.mentorsTable .mentorsTableSearchWrap input {
+    background: transparent;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 20px;
+    margin-left: 15px;    
+}
+.mentorsTable .mentorsTableSearchWrap form i{
+	color: #636363;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+.mentorsTable table tr.THead th{
+	font-size: 16px;
+}
+.mentorsTable table tr.THead th:first-child{
+	font-size: 28px;
+}
+
+.mentorsTable table tr:hover{
+	background: rgba(0 , 0 , 0, 0.2);
+}
+
+.mentorsTable table tr th, .mentorsTable table tr td{	
+	font-size: 14px;
+	padding: 8px 15px;
+	vertical-align: middle;
+}
+
+.mentorsTable table tr th {    
+    font-weight: bold;
+	color: #949599;
+	padding-bottom: 25px;	
+}
+
+.mentorsTable table tr th:first-child, .mentorsTable table tr td:first-child{
+	text-align: left;
+	width: 100px; 
+}
+
+.mentorsTable table tr td.MenterName{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.mentorsTable table tr td.MenterName a{
+	color: #ffffff;
+}
+
+.mentorsTable table tr td{
+	color: #ffffff;
+}
+
+.mentorsTable table tr th, .mentorsTable table tr td{
+	border: none;
+}
+
+.mentorsTable table tr td img{
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+} 
+
+.CurrentStatus span {
+    background: #293535;
+    padding: 8px 16px;
+    color: #31cd52;
+}
+
+.CurrentStatus span:before{
+	content: "";
+	width: 6px;
+	height: 6px;
+	background: #31cd52;
+	position: relative;
+	display: inline-block;
+	margin-right: 6px;
+	border-radius: 13px;
+	vertical-align: middle;
+}
+
+ul.FilterNav { 
+    margin: 0;
+    padding: 20px 0 25px;
+} 
+
+ul.FilterNav li {
+    display: inline-block;
+    padding: 0 125px;
+    position: relative;
+}
+
+ul.FilterNav li:first-child{
+	padding-left: 0px;
+	top: 10px;
+}
+ul.FilterNav li:nth-child(2){
+	top: 0;
+}
+ul.FilterNav li:nth-child(3){
+	top: -10px;
+}
+ul.FilterNav li:nth-child(4){
+	padding-right: 0px;
+	top: 0;
+}
+
+ul.FilterNav li:first-child::before {
+	background-image: url(./images/v-01.png);   
+    right: -110px;
+	top: -25px;
+}
+
+ul.FilterNav li:nth-child(2):before{
+	background-image: url(./images/v-02.png);
+	right: -115px;
+	height: 47px;
+	top: 33px;
+	width: 230px;
+}
+
+ul.FilterNav li:nth-child(3):before{
+	background-image: url(./images/v-03.png);    
+	right: -109px;
+	top: -20px;	
+} 
+
+ul.FilterNav li:before{
+	content: "";
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: 100%;
+    color: #fff;
+    width: 218px;
+    height: 59px;
+    z-index: 999;
+}
+
+ul.FilterNav li a {
+	background: #36373b;
+	padding: 10px 0;
+	border-radius: 100%;
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.CustomModalBox.BigPopup ul.FilterNav li a{
+	padding: 3px 0;
+}
+
+/* ul.FilterNav li a.small{
+	height: 85px;
+	width: 85px;
+	padding: 27px 0;
+} */
+
+.serviceItem{
+	text-align: center;
+	color: #ffffff;
+	padding: 80px 25px 120px; 
+}
+
+.serviceItem img{
+	margin-bottom: 55px;
+}
+
+.serviceItem p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.serviceItem.BgChange{
+	background: rgb(50,51,56);
+	background: linear-gradient(0deg, rgba(50,51,56,1) 0%, rgba(41,42,47,1) 50%, rgba(36,37,42,1) 100%);
+}
+
+
+.NoticeBoard{
+	padding: 50px 0px 110px;
+	/*background: rgb(50,51,56);
+	background: linear-gradient(0deg, rgba(50,51,56,1) 0%, rgba(41,42,47,1) 50%, rgba(36,37,42,1) 100%);*/
+}
+
+.NoticeBoard img{
+	margin-bottom: 30px; 
+}
+
+.NoticeBoard p{
+	color: #ffffff;
+	width: 70%;	
+	margin: 0 auto;
+	line-height: 26px;
+}
+
+/*
+## AppDownloadWrap
+**************************/
+.AppDownloadWrap{
+	background-image: url(./images/bg02.jpg);
+	padding: 120px 0px 100px;
+	position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.AppDownloadWrap h4{
+	color: #ffffff;
+	margin-bottom: 65px;
+}
+
+
+.SignUpWrap {
+    padding: 80px 0px;
+    background-image: url(./images/bg01.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.SignUpWrap::after {
+    background: rgb(71,173,195);
+    background: linear-gradient(90deg, rgba(71,173,195,0.7) 0%, rgba(142,73,202,0.7) 57%);
+    content: "";
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.SignUpWrap .container{
+	position: relative;
+	z-index: 999;
+}
+
+.SignUpWrap p{
+	width: 60%; 
+	margin: 0 auto;
+	color: #ffffff;
+	line-height: 22px;
+	margin-bottom: 40px; 
+}
+
+/*
+## Video Wrap
+********************/
+.VideoContentThum ul {
+    margin-bottom: 0px;
+    border-top: 10px solid #313339;
+    padding-top: 10px;
+}
+
+.VideoContentThum ul li {
+    display: inline-block;
+    width: 23.8%;
+    margin-right: 1%;
+    padding-top: 10px;
+}
+
+.VideoContentThum ul li.active{
+	border-top: 4px solid #08c2df;
+}
+
+.VideoContentThum ul li:last-child{
+	margin-right: 0px;
+	border-top: 4px solid transparent;
+}
+
+.footer_wrap{
+	padding: 80px 0;
+	color: #ffffff;
+}
+
+.FooterInfo{
+	width: 50%; 
+	margin: 0 auto;
+}
+
+.FooterInfo p{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.socialActivityWrap::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #444865;
+    border-bottom: 1px solid #282d4a;
+    padding-bottom: 1px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.socialActivityWrap {
+    text-align: center;
+    position: relative;
+    margin: 60px 0;
+}
+
+.socialActivityWrap ul.socialActivity {
+    display: inline-block;
+    margin: 0px;
+    background: #24252a;
+    z-index: 1;
+    position: relative;
+    padding: 0 25px;
+}
+
+.socialActivityWrap ul.socialActivity li{
+	display: inline-block;
+}
+
+.socialActivityWrap ul.socialActivity li a{
+	color: #ffffff;
+	padding: 0 15px;
+}
+
+ul.FooteMenu {
+    text-align: center;
+    display: block;
+    margin: 0;
+}
+
+ul.FooteMenu li{
+	display: inline-block;
+}
+
+ul.FooteMenu li a {
+    color: #ffffff; 
+    font-size: 18px;
+    padding: 20px 45px;
+    display: block;
+}
+
+/*
+## Profile Page CSS
+*************************/
+.ProfileSlide{
+	text-align: center;
+	top: 150px;
+}
+
+.SliderWrapProfile.SliderWrap img.sliderImage{
+	height: 435px;
+	object-fit: cover;
+	width: 100%;
+}
+
+h1.smallTitle{
+	color: #ffffff; 
+	font-size: 22px;
+	margin-bottom: 35px;
+}
+
+.ProfileSlide{
+
+}
+
+.ProfileImage{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.ProfileImage img{
+	border-radius: 100%;
+	border: 6px solid #fff;
+	margin-top: -110px;
+}
+
+.ProfileInfo{
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.ProfileInfo h3{
+	color: #ffffff;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+	margin-bottom: 0px; 
+	font-size: 1.75rem;
+}
+
+.ProfileInfo p.CurrentStatus{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+.AboutProfile{
+	margin-top: 15px;
+}
+
+.AboutProfile span {
+    color: #ffffff;
+    margin-right: 15px;
+	position: relative;
+	font-size: 14px;
+}
+.AboutProfile span:first-child::before{
+	width: 0;
+	height: 0;
+	margin: 0;
+}
+.AboutProfile span::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 13px;
+    vertical-align: middle;
+}
+
+.InfoRight{
+	float: right;
+	margin-top: 33px;
+	font-size: 18px;
+	width: 35%;
+}
+
+.InfoRight img{
+	margin-right: 20px;
+}
+.InfoRight p{
+	color: #fff;
+	margin: 0;
+	width: 80%;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.InfoRight img, .InfoRight p{
+	display: inline-block;
+	vertical-align: middle;
+} 
+
+/*
+## Report Box
+*******************/ 
+.ProfileReportBox {
+	width: 32.4%;
+	display: inline-block;
+	background: rgb(36,37,42);
+	background: linear-gradient(0deg, rgba(36,37,42,1) 0%, rgba(48,49,54,1) 50%, rgba(58,58,66,1) 100%);
+	padding: 17px 20px;
+	border-radius: 8px;
+	color: #fff;
+	margin-right: 10px;
+	min-height: 95px;
+	vertical-align: top;
+}
+
+.ProfileReportBox .boxLeftContent{
+	width: 30%; 
+	float: left;
+}
+
+.ProfileReportBox .boxLeftContent p{
+	margin-bottom: 5px;
+}
+
+.ProfileReportBox .boxLeftContent h4{
+	font-size: 1.5rem;
+}
+
+.ProfileReportBox .boxRightContent{
+	float: right;
+	width: 70%;
+	text-align: right;
+}
+.ProfileReportBox .boxRightContent p{
+	margin-bottom: 0px;
+	margin-top: 18px;
+}
+.ProfileReportBox .boxRightContent a{
+	border: none;
+	padding: 10px 15px;
+	border-radius: 6px;
+	margin-top: 10px;
+	display: inline-block;
+	background: #ffffff;
+	color: #1f1f1f; 
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.ProfileReportBox .boxRightContent a i{
+	color: #09c2e0;
+	font-size: 22px;
+	vertical-align: top;
+	margin-right: 8px;
+}
+
+.ShareIconWrap h5 {
+    color: #fff;
+    margin: 0 15px 0 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ShareIconWrap .ShareIcon{
+	text-align: center;
+}
+
+.ShareIconWrap h5 , .ShareIconWrap .ShareIcon{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ShareIconWrap .ShareIcon a{
+	background: none;
+	color: #fff;
+	padding: 15px 10px 0;
+	display: inline-block;
+}
+
+.ShareIconWrap .ShareIcon a i{
+	font-size: 25px;
+	color: #1196f5;
+	margin: 0px;
+}
+.ShareIconWrap .ShareIcon a i.fa-instagram{
+	color: #f14d58;
+}
+
+.ShareIconWrap .ShareIcon a i.fa-twitter{
+	color: #1da1f2;	
+}
+
+.ShareIconWrap .boxRightContent ul{
+	margin-bottom: 0px; 
+	margin-top: 12px;
+}
+
+.ProfileReportBox .boxRightContent ul li{
+	display: inline-block;
+}
+
+.ProfileReportBox .boxRightContent ul li a {
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+    background: none;
+}
+
+.ProfileReportBox .boxRightContent ul li a i {
+    margin: 0;
+    font-size: 24px;
+    color: #5c5c5c;
+}
+
+.ProfileReportBox .boxRightContent ul li a i.yes{
+	color: #ffd765;
+}
+
+.ProfileReportBox.big .boxLeftContent{
+	width: 60%;
+}
+.ProfileReportBox.big .boxLeftContent h4{
+	font-size: 18px;
+	margin: 18px 0;
+}
+.ProfileReportBox.big .boxRightContent{
+	width: 107px;
+}
+
+.columnBox{
+	width: 32.4%;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.ProfileContentWrap a.CustomButton{
+	margin-top: 0px;
+}
+
+.columnBoxButton{
+	display: inline-block;
+	margin-right: 15px;
+	width: 320px;	
+}
+
+.columnBoxButton a.CustomButton {
+	background: #09c2e0;
+	border: none;
+	width: 100%;
+	border-radius: 8px;
+	padding: 15px 20px;
+	height: auto;
+	font-size: 13px;
+	
+}
+
+body .CustomButton.purple{
+	background: #9a29fd
+}
+
+.columnBox.noColor a.CustomButton {
+    background: transparent;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.columnBoxButton a.CustomButton:hover{
+	opacity: 0.9; 
+}
+
+.columnBoxButton a.CustomButton img{
+	margin-right: 15px;
+}
+
+
+.PopularMentorsWrap.MyVideoOverlay{
+	margin-bottom: 30px;
+}
+
+.MyVideoOverlay .MentorsWrap{
+	width: 20%;
+	margin: 0 -4px 0 0;
+	padding-right: 10px;
+}
+
+.MyVideoWrap.SignUpWrap{
+	min-height: 400px;
+}
+
+.MyVideoWrap.SignUpWrap .mainTitle{
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.MyVideoWrap.SignUpWrap p{ 
+	display: inline-block;
+	vertical-align: top;
+}
+
+p.infoText{
+	color: #fff;
+	margin: 0;
+	font-size: 14px;
+	padding-left: 30px;
+	position: relative;	
+}
+
+p.infoText img{
+	position: absolute;
+	top: -5px;
+	left: 0;
+}
+
+.aboutMentor .aboutMentorContent{
+	background: #2f3035; 
+	padding: 25px 20px;
+	border-radius: 8px;
+	color: #ffffff;
+	line-height: 1.5;
+}
+
+.aboutMentor .aboutMentorContent ul li{
+	margin-bottom: 15px;
+	line-height: 24px;
+	font-size: 15px;
+}
+
+.header_right ul li.mobileNavIcon{
+	display: none; 	
+}
+
+/*
+## Tabs Style
+*******************/
+
+.CustomTabNav ul{
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: center;
+	border: none;
+}
+
+.CustomTabNav .react-tabs__tab{
+	color: #bfbfc1;
+    border-bottom: 4px solid transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 45px 50px 35px;
+    font-size: 20px;
+}
+
+.CustomTabNav .react-tabs__tab i{
+	margin-right: 10px;
+	font-size: 28px;
+}
+
+.CustomTabNav .react-tabs__tab--selected.react-tabs__tab {
+    background: none;    
+	border-bottom: 4px solid #08c2df;
+	color: #ffffff;
+}
+
+.TabPanelWrap{
+	padding-top: 55px;
+	min-height: 800px;
+}
+
+.LeftBorderRadius{
+	border-radius: 10px 0px 0px 10px;
+}
+
+.RightBorderRadius{
+	border-radius: 0 10px 10px 0;
+}
+
+.TopBorderRadius{
+	border-radius: 15px 15px 5px 5px;
+}
+
+.TabContentLeft{
+	width: 20%; 
+	float: left;
+	padding-right: 45px;
+}
+
+.TabContentRight{
+	width: 80%;
+	float: left;
+}
+
+.ConversationsLeft{
+	height: 100%;
+	background: #19191b;
+	padding-top: 30px;
+	padding-right: 0px;
+	width: 30%;
+	overflow-y: auto;
+	position: relative;
+}
+
+.ConversationsRight{
+	width: 70%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.ConversationsLeft button.btn-secondary:not(:disabled):not(.disabled).active{
+	background: #08c2df;
+	border-color: #08c2df;
+}
+
+
+/*
+######################
+*/
+
+.VideoItem h4{
+	font-size: 20px;
+}
+
+.GeenBG{
+	background-color: #31cd52;
+}
+.BlueBG{
+	background-color: #3165de;
+}
+.SmallButton{
+	font-weight: bold;
+	padding: 8px 20px;
+	font-size: 15px;
+	border-radius: 6px;	
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.sideMenuWrap{
+	margin-bottom: 15px;
+}
+
+.sideMenuWrap ul.react-tabs__tab-list{
+	border: none;
+}
+.sideMenuWrap ul li.react-tabs__tab{
+	cursor: pointer;
+	display: block;
+	color: #a7a7a9;
+	padding-left: 30px;
+	background: none;
+	border: none;
+	margin-bottom: 5px;
+}
+.sideMenuWrap ul li.react-tabs__tab--selected:before{
+	content: "";
+	width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: #31cd52;
+    margin-right: 15px;
+	border-radius: 100%;
+	position: absolute;
+	top: 12px;
+	left: -20px;
+}
+.sideMenuWrap ul li.react-tabs__tab--selected,
+.sideMenuWrap ul li.react-tabs__tab--selected:after{
+	position: relative;
+	padding-left: 0px;
+	background: none;
+	color: #fff;
+	border: none;
+}
+
+.sideMenuWrap a{
+	color: #fff;
+}
+
+.sideMenuWrap a:hover{
+	color: #ffffff;
+}
+
+.sideMenuWrap a span {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: #3d3e43;
+    margin-right: 15px;
+    border-radius: 100%;
+}
+
+.sideMenuWrap a span.Active{
+	background-color: #31cd52;
+}
+
+.sideMenuWrap .subMenu {
+    margin: 1rem 0px;
+    padding-left: 40px;
+}
+
+.sideMenuWrap .subMenu a{
+	color: #a7a7a9;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.MyAccountFormWrap{
+	width: 60%;
+}
+
+.AthletesAccountForm.MyAccountFormWrap{
+	width: 80%;
+}
+
+form .form-control:disabled,form .form-control[readonly],
+.MyAccountFormWrap form input, 
+.MyAccountFormWrap form select,
+.MyAccountFormWrap form select:focus,
+.MyAccountFormWrap form select:active,
+.MyAccountFormWrap form input:focus, 
+.MyAccountFormWrap form input:active{
+	background: #33343b;
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	height: 65px;
+	padding: 0 40px 0 60px;
+	font-size: 18px;
+}
+
+form input.noIcon,
+form input.noIcon:focus, 
+form input.noIcon:active,
+.modal-dialog.CustomModalBox .modal-content input.noIcon, 
+.modal-dialog.CustomModalBox .modal-content select.noIcon{
+	padding-left: 25px;
+	padding-right: 20px;
+}
+
+.MyAccountFormWrap form label{
+	color: #8b8c8f;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.MyAccountFormWrap form label.form-check-label{
+	margin-bottom: 0px;
+	line-height: 20px;
+}
+
+.MyAccountFormWrap form label.form-check-label a{
+	color: #2b86fd;
+}
+
+.MyAccountFormWrap form label.form-check-label a:hover{
+	opacity: 0.7;
+}
+
+.MyAccountFormWrap form label.form-check-label input{
+	height: auto;	
+}
+
+.ButtonWrap .CustomButton{
+	margin-right: 30px;
+}
+
+.ButtonWrap .CustomButton.CustomButtonCancel{
+	background: #33343b;
+	margin-right: 0;
+	width: 168px;
+}
+
+
+.FavoriteMentorsTable.mentorsTable table tr th, 
+.FavoriteMentorsTable.mentorsTable table tr td{
+	font-size: 18px;
+}
+
+.FavoriteMentorsTable.mentorsTable table tr td.MenterName{
+	font-size: 24px;
+}
+
+.FavoriteIcon i{
+	color: #e2454c;
+	background-color: #24252a;
+	font-size: 27px;
+	border: 1px solid #515151;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.miniTitle{
+	color: #ffffff;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.miniTitle span {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    background: #08c2df;
+    border-radius: 15px;
+}
+
+.miniTitle.Playing span{
+	background-color: #df6808;
+}
+.miniTitle.Proudest span{
+	background-color: #14df08;
+}
+.sliderArrow a{
+	color: #fff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.modal-dialog.CustomModalBox{
+	margin-top: 50px;
+	max-width: 650px;
+}
+
+.modal-dialog.CustomModalBox.BigPopup{	
+	max-width: 1200px;
+}
+
+.modal-dialog.CustomModalBox.BigPopup .modal-body{
+	width: 100%;
+	background: #24252a;
+}
+
+.modal-dialog.CustomModalBox.BigTop,
+.modal-dialog.CustomModalBox.CustomModalTab{	
+	margin-top: 150px; 
+}
+
+.modal-dialog.CustomModalBox .modal-body{
+	padding: 50px;
+	width: 80%;
+	margin: auto;
+}
+
+.modal-dialog.CustomModalBox.CustomModalTab .modal-body{
+	padding: 0px;
+	width: 100%;
+}
+
+.modal-dialog.CustomModalBox .modal-content{
+	background-color: #000;
+	color: #8b8c8f;
+	padding: 0px;
+} 
+
+.modal-dialog.CustomModalBox .modal-header .close{
+	z-index: 9;
+	position: absolute;
+	top: 30px;
+	right: 40px;
+}
+
+.modal-dialog.CustomModalBox .modal-content label{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.modal-dialog.CustomModalBox .modal-content .form-group, 
+.MyAccountFormWrap .form-group{
+	position: relative;
+}
+
+.modal-dialog.CustomModalBox .modal-content select :focus,
+.modal-dialog.CustomModalBox .modal-content:focus,
+.modal-dialog.CustomModalBox .modal-content input, 
+.modal-dialog.CustomModalBox .modal-content select {
+	background: transparent;
+	color: #ffffff;
+	border-radius: 0;
+	padding: 0 20px 10px 40px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	box-shadow: none;
+}
+ 
+
+/* .modal-dialog.CustomModalBox .modal-content input,
+.modal-dialog.CustomModalBox .modal-content select{
+	background: #33343b;
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	height: 65px;
+	padding: 0 40px 0 60px;
+	font-size: 18px;
+}	 */
+
+.modal-dialog.CustomModalBox .modal-content input[type="checkbox"] {
+    height: auto;
+    padding: 0;
+    margin-top: 7px;
+}
+
+span.input-group-addon{
+	position: absolute;
+	bottom: 19px;
+	left: 20px;
+	font-size: 20px;
+	line-height: normal;
+	width: 31px;
+	text-align: center;
+	z-index: 99;
+}
+.modal-dialog.CustomModalBox .modal-content span.input-group-addon{
+    position: absolute;
+    bottom: 12px;
+    left: 0px;
+    font-size: 20px;
+    line-height: normal;
+    width: 30px;
+    text-align: center;
+    z-index: 99;
+    color: #fff;
+} 
+
+.modal-dialog.CustomModalBox .modal-header,
+.modal-dialog.CustomModalBox .modal-footer {
+	border-color: #33343b;
+}
+
+.modal-body .FormSubmitButton,
+.ProfileVideoUpload .FormSubmitButton {
+	background-image: linear-gradient(119deg, #32c6c7 23%, #2986fd 79%);
+	width: 100%;
+	padding: 12px;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 50px;
+	color: #fff;
+	line-height: normal;
+}
+
+button.FormSubmitButton{
+	font-size: 14px;
+	width: 220px;
+	border: none;
+}
+
+.modal-body form .FormSubmitButton i,
+.ProfileVideoUpload .FormSubmitButton i {
+    font-size: 22px;
+    vertical-align: sub;
+    margin-right: 8px;
+}
+
+.modal-dialog.CustomModalBox .modal-header{
+	background: linear-gradient(0deg,#000,#000 50%,#24252a);
+	position: relative;
+	padding: 18px 35px 0px;
+	border-bottom: 5px solid #0886f7;
+}
+
+.modal-dialog.CustomModalBox .modal-header .modal-title{
+	color: #fff;
+	font-size: 20px;
+	/* border-bottom: 4px solid #08c2df; */
+	padding-bottom: 18px;
+}
+
+.modal-dialog.CustomModalBox .modal-header .modal-title i{
+	margin-right: 15px;
+}
+
+.modal-dialog.CustomModalBox button.CustomButton {
+    margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.DarkBG.dropdown-menu{
+	background: #393940;
+}
+
+ul.moduleTabNav{
+	margin-bottom: 25px;
+	background: linear-gradient(0deg,#000,#000 50%,#24252a);
+	padding: 25px 25px 0 25px;
+	border-color: #0886f7;
+	border-width: 5px;
+} 
+
+ul.moduleTabNav.nav-tabs .nav-link{
+	cursor: pointer;
+	color: #bfbfc1;
+	padding: 0px 20px 18px;
+	font-size: 20px;
+	border-bottom: 4px solid transparent;
+}
+
+ul.moduleTabNav.nav-tabs .nav-link i{
+	margin-right: 15px;
+}
+
+ul.moduleTabNav.nav-tabs .nav-link.active,
+ul.moduleTabNav.nav-tabs .nav-link:focus,
+ul.moduleTabNav.nav-tabs .nav-link:hover {
+	color: #fff;
+	background: none;
+	border: none;
+	/* border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 4px solid #08c2df;  */
+}
+
+.CustomModalBox .tab-content{
+	padding: 10px 35px 25px;
+	width: 80%;
+	margin: auto;
+}
+
+.CustomModalBox button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 9;
+}
+
+.FormButtonWrap{
+	width: 315px;
+}
+
+.LoadingIcon {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+	top: -5px;
+	z-index: 9;
+}
+
+.LoadingIcon.Spinner{
+	top: 5px;
+}
+
+.LoadingIcon img{
+	width: 70px;
+}
+
+.sweet-alert{
+	color: #000;
+}
+
+.ErrorPage{
+	color: #ffffff;
+	text-align: center;
+	height: calc(100vh - 720px);
+}
+
+.ErrorPage h1{
+	font-size: 42px;
+	font-weight: bold;	
+}
+
+.ErrorPage p{
+	font-size: 18px;
+}
+
+.VideoPageWrap{
+	min-height: 500px;
+}
+
+.VideoPageTitleWrap{
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.VideoPageTitleWrap h1{
+	font-size: 29px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.VideoPageTitleWrap h4{
+	font-size: 14px;
+}
+
+.VideoButton {
+    border-radius: 8px;    
+    border: none;
+    padding: 26px;
+	color: #fff;
+	width: 49%;
+}
+
+.VideoButton p, .VideoButtonWrap p{
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+	margin-left: 26px;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+
+.VideoButton p span, .VideoButtonWrap p span{
+	display: block;
+	margin-top: 16px;
+	font-size: 12px;
+}
+
+.UploadBg{
+	background-image: linear-gradient(119deg, #c953ff 23%, #9929fd 79%);
+	margin-right: 2%;
+}
+
+.RecordBG{
+	background-image: linear-gradient(119deg, #32c6c7 23%, #2986fd 79%);
+}
+
+.modal-dialog.VideoModulBox{
+	margin-top: 80px;
+	max-width: 950px;
+}
+
+.VideoButtonWrap{
+	text-align: center;
+}
+
+.modal-dialog.CustomModalBox .VideoButtonWrap h5.modal-title{
+	width: 100%;
+	border: none;
+}
+
+.modal-dialog.VideoModulBox .modal-header.VideoButtonWrap{
+	background: none;
+	border-color: #474747; 
+}
+
+.VideoFrame{
+	/* width: 560px; */
+	margin: 0 auto 70px;
+	padding: 30px;
+	background-color: #2f3036;
+	border-radius: 20px;
+	position: relative;
+}
+
+.VideoFrame .video-recorder__Wrapper-sc-7k20rv-0{
+	overflow: inherit;
+}
+
+.VideoFrame .video-recorder__Wrapper-sc-7k20rv-0 .render-actions__ActionsWrapper-dp6lnv-0 {
+    padding: 0;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.VideoFrame .video-recorder__Wrapper-sc-7k20rv-0 .render-actions__ActionsWrapper-dp6lnv-0 button.button__Button-hkteey-0 {
+    color: #fff;
+	background: linear-gradient(93deg, #c953ff 24%, #9929fd 75%);    
+	padding: 8px 10px;
+	font-size: 14px;
+}
+
+.VideoFrame h4{
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.VideoFrame span{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.modal-dialog.VideoModulBox .modal-footer{
+	border: none;
+	justify-content: inherit;
+	display: block;
+	padding-bottom: 30px;
+}
+
+button.CustomButton.CancelButton{
+	background-color: #33343b;
+}
+
+button.CustomButton.CancelButton:hover{
+	opacity: 0.7;
+}
+
+.modal-dialog.sendingVideoModal{
+	max-width: 800px;
+	text-align: center;
+}
+
+.modal-dialog.sendingVideoModal .modal-body{
+	padding: 45px;
+}
+
+.sendingVideoModal .AthleteInfo{
+	margin: 40px 0 30px;
+}
+
+.sendingVideoModal .AthleteInfo img{
+	width: 80px;
+	border-radius: 100%;
+	margin-right: 20px;
+	height: 80px;
+	object-fit: cover;
+	vertical-align: middle;
+}
+
+.sendingVideoModal .AthleteInfo span{
+	font-weight: bold;
+}
+
+.sendingVideoModal h1{
+	color: #fff;
+	font-size: 2.5rem;
+}
+
+.sendingVideoModal p{
+	font-size: 14px;
+	width: 69%;
+	margin: 0 auto 10px;
+}
+
+.sendingVideoModal a.CustomButton{
+	letter-spacing: normal;
+	text-transform: none;
+}
+
+.VideoIconImage{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+span.Divider{
+	display: block;
+	margin-top: 15px;
+	font-size: 30px;
+	color: #4f5054;
+}
+
+.PaymentInfoWrap h1{
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.PaymentInfoWrap button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 10px 25px 10px 40px;
+	border-radius: 10px; 
+	width: 100%;
+	text-align: left;
+	margin-bottom: 25px;
+	position: relative;
+}
+.PaymentInfoWrap button.PaypalButton{
+	border-bottom: 1px solid #4f4f4f;
+	border-radius: 0;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+}
+.PaymentInfoWrap button::before {
+	content: "";
+	width: 15px;
+	height: 15px;
+	background-color: transparent;
+	border-radius: 100%;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	border: 1px solid #bababa;
+}
+
+body button:focus{
+	outline: none;
+}
+
+.PaymentInfoWrap button img, .PaymentInfoWrap button span{
+	display: inline-block;
+	/* vertical-align: middle; */
+}
+
+.PaymentInfoWrap button img{
+	float: right;
+}
+
+.PaymentInfoWrap button.active::before{
+	background-color: #00c6e4;
+	border-color: #00c6e4;
+}
+
+p.paymentInfoText{
+	margin: 30px 0 50px;
+	font-size: 14px;
+	line-height: 1.5;	
+}
+
+.MyAccountFormWrap textarea.form-control,
+.MyAccountFormWrap textarea.form-control:focus,
+.MyAccountFormWrap textarea.form-control:active,
+.MessageWrap textarea.form-control,
+.MessageWrap textarea.form-control:focus,
+.MessageWrap textarea.form-control:active  {
+    height: 150px;
+    background: #33343b;
+    padding: 20px 25px;
+    border: 1px solid #33343b;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.modal-footer .LoadingIcon{
+	top: -55px;
+}
+
+.dropdown-menu a span.LoaderIcon {
+    position: absolute;
+    top: 3px;
+    width: 100%;
+    left: 0;
+}
+
+.LoginButtonWrap{}
+
+.LoginButtonWrap form{
+	margin-right: 20px;
+}
+.LoginButtonWrap form .SearchFormWrap{
+	position: relative;
+}
+.LoginButtonWrap form .SearchFormWrap input {
+    background: #2b2c33;
+    opacity: 0.4;
+    border: none;
+    color: #fff;
+    border-radius: 35px;
+    padding: 9px 25px 9px 45px;
+    width: 230px;
+}
+.LoginButtonWrap form .SearchFormWrap i {
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    color: #fff;
+}
+
+.LoginButtonWrap a.LoginButton {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+.LoginButtonWrap a.LoginButton img{
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+.LoginButtonWrap form, .LoginButtonWrap a.LoginButton{
+	display: inline-block;
+	vertical-align: middle;
+} 
+
+.SendRecordMessage {
+    position: absolute;
+    top: 100px;
+    width: 140px;
+    right: 25px;
+}
+
+.ShowHidePass{
+	position: absolute;
+	right: 0;
+	top: 1px;
+	z-index: 9;
+}
+
+.ConversationTileWrap{
+	position: relative;
+}
+
+.ConversationTileWrap h1 i{
+	font-size: 22px;
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+.ConversationsNotification ul li, .ConversationsNotification ul li:nth-child(2n){
+	width: 40%;
+	background: transparent;
+	border: none;
+}
+
+.ConversationsNotification ul li .ChatListContent h4{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.ConversationsNotification ul li .ChatListContent p{
+	color: #7f7e80;
+	font-size: 13.5px;
+}
+
+.ConversationTypeFilter{
+	margin-bottom: 30px;
+}
+
+.ConversationTypeFilter ul{
+	width: 100%;
+	border: none;
+}
+
+.ConversationTypeFilter ul li,
+.ConversationTypeFilter ul li:active, 
+.ConversationTypeFilter ul li:focus{
+	width: 33.3%;
+	display: inline-block;
+	background: transparent;
+	color: #616265;
+	border: none;
+	padding: 5px 25px 20px;
+	text-align: center;
+	border-bottom: 3px solid #2b2c32;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.ConversationTypeFilter ul li.active{
+	border-bottom: 3px solid #0089ff;
+	color: #fff;
+}
+
+.ConversationTypeFilter ul li.active:focus{
+	box-shadow: none;
+}
+
+.ConversationTypeFilter ul li.react-tabs__tab--selected:after{
+	display: none;
+}
+
+.ActionReply{}
+
+.ActionReply span {
+    width: 32%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;    
+}
+.ActionReply span:last-child{
+	margin-right: 0px;
+}
+.ActionReply span a {
+    background: #2b3d35;
+    font-size: 20px;
+    color: #28f87e;
+    display: block;
+    padding: 8px 0 9px;
+    line-height: normal;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.ActionReply span a.deny{
+	background-color: #2e363d;
+	color: #0089ff;
+}
+.ActionReply span a.report{
+	background-color: #3e2e2e;
+	color: #ff0000;
+}
+
+.MessageItem{
+    float: right;
+	width: 170px;
+	margin-bottom: 25px;
+}
+
+.modal-dialog.MessagePopup{
+	margin-top: 15%; 
+	max-width: 560px;
+}
+
+.modal-dialog.MessagePopup .modal-content{
+	padding: 20px 15px;
+	background-color: #242528;
+	color: #fff;
+}
+
+.modal-dialog.MessagePopup.SendUploadVideo{
+	max-width: 800px;
+}
+
+.modal-dialog.MessagePopup .VideoFrame{
+	padding: 0;
+	margin: 0;
+	background: transparent;
+}
+
+.modal-dialog.MessagePopup .close{
+	position: absolute;
+	top: -10px;
+	right: -5px;
+	z-index: 999;
+}
+
+.modal-dialog.MessagePopup .modal-body .FormButtonWrap{
+	width: 100%;
+	text-align: right;
+}
+
+.modal-dialog.MessagePopup .modal-body form .FormSubmitButton,
+.ProfileVideoUpload .FormSubmitButton {
+    font-size: 14px;
+    padding: 10px 0;
+	width: 200px;
+	text-align: center;
+}
+
+.modal-dialog.MessagePopup.SendSelfiVideo .MessageWrap form textarea.form-control{
+	height: 100px;
+	border-radius: 50px;
+}
+.modal-dialog.MessagePopup button.uploadButton{
+	z-index: 9999;
+	position: absolute;
+	bottom: 15px;
+	left: 16px;
+	background: linear-gradient(93deg, #c953ff 24%, #9929fd 75%);
+	color: #fff;
+	padding: 5px 15px;
+	border: none;
+}
+
+.modal-dialog.MessagePopup button.uploadButton i{
+	display: block;
+	font-size: 25px;
+}
+
+.UploadInput{
+	position: relative;
+}
+
+#ImageUpload, #ImageUpload2, #ImageUpload3 {
+	display: none;
+}
+
+.UploadInput img{
+	height: 180px;
+}
+
+.FeaturesSlider{}
+
+.FeaturesSlider img{
+	border-radius: 8px;
+}
+.modal-dialog.CustomModalBox.PaymentPopup{
+	max-width: 550px;
+}
+.modal-dialog.CustomModalBox.PaymentPopup .modal-content{
+	background-color: #242529;
+}
+
+.modal-dialog.CustomModalBox.PaymentPopup .modal-content h2{
+	font-weight: bold;
+	margin-bottom: 25px;
+	font-size: 1.5rem;
+}
+
+.modal-dialog.CustomModalBox.PaymentPopup .modal-body{
+	width: 100%;
+}
+
+.modal-dialog.CustomModalBox.PaymentPopup .modal-content label{
+	font-size: 17px;
+}
+
+.modal-dialog.CustomModalBox.PaymentPopup .modal-content input{
+	font-size: 17px;
+	border: none;
+}
+.modal-dialog.CustomModalBox.PaymentPopup .modal-content .InputWrap{
+	border-bottom: 1px solid #48484d;
+}
+.modal-dialog.CustomModalBox.PaymentPopup .LoadingIcon.Spinner{
+	top: 28px;
+}
+
+.VideoPreviewWrap{}
+
+.VideoPreviewWrap h1{
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.VideoPreviewWrap h5 {
+    color: #bcbcbc;
+    border-left: 2px solid #f16d7c;
+    padding-left: 15px;
+    font-size: 37px;
+    margin: 25px 0 45px;
+    font-family: Candara;
+    line-height: normal;
+}
+.VideoPreviewWrap input,
+.VideoPreviewWrap input:focus {
+    background: none;
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+	border-bottom: 1px solid;
+	box-shadow: none;
+	color: #ffffff;
+	border-radius: 0px;
+}
+
+.VideoPreviewWrap p{
+	color: #00c6e4;
+	font-size: 18px;
+}
+
+.VideoPreviewWrap p strong{
+	color: #fff;
+}
+
+.VideoPreviewWrap p span{
+	color: #ff0000;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.SliderCustomArrow.nav {
+    cursor: pointer;
+    background: rgba(0 , 0 , 0, 0.5);
+    padding: 4px 0px;
+    border-radius: 100%;
+	width: 40px;
+	height: 40px;
+    text-align: center;
+	display: block;
+	-moz-transition: all .5s ease-out; 
+	-webkit-transition: all .5s ease-out; 
+	-o-transition: all .5s ease-out;
+}
+
+.SliderCustomArrow.nav:hover{
+	background: #0065b36c;
+}
+
+.SliderCustomArrow i{
+	color: #fff;
+	font-size: 30px;
+}
+
+.ShareAction {
+    position: absolute;
+    right: 15px;
+    bottom: 12px;
+}
+
+.UploadInputImage{
+	width: 160px;	
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.UploadInputImage img{
+	object-fit: cover;
+	width: 160px;
+	height: 160px;
+}
+.CharityLogoUpload.UploadInputImage {
+    border-radius: 0;
+}
+.CharityLogoUpload.UploadInputImage img {
+    height: 100px;
+}
+
+form .UploadInputImage label {
+    position: absolute;
+    z-index: 99;
+    background: rgba(0 , 0 , 0, 0.5);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+	left: 0;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+form .UploadInputImage label p{
+	padding: 15px 0px;
+	margin-bottom: 0px;
+}
+form .UploadInputImage label i{
+	font-size: 25px;
+	
+}
+
+.form-check-label .form-check-input{
+	margin-top: 3px;
+}
+
+.FeaturedSliderItem img{
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+span.AthletePrice {
+    font-size: 12px;
+    margin-left: 10px;
+    background: #0a69aa;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.SearchBarButton{
+	background: none;
+	border: none;	
+}
+
+.UploadInputImageProfile {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ProfileVideoUploadPopup .video-recorder__Wrapper-sc-7k20rv-0{
+	overflow: inherit;
+	height: 250px;
+}
+
+.ProfileVideoUploadPopup .render-actions__ActionsWrapper-dp6lnv-0{
+	padding: 0;
+	bottom: auto;
+	width: auto;
+	right: 0;
+	left: auto;
+	top: 0;
+}
+
+.ProfileVideoUploadPopup .render-actions__ActionsWrapper-dp6lnv-0 button{
+	padding: 10px 25px;
+	font-size: 15px;
+	font-weight: normal;
+	background-image: linear-gradient(119deg, #32c6c7 23%, #2986fd 79%);
+	color: #fff;
+}
+
+.ProfileVideoFrame{
+	width: 100%;
+	height: 300px;
+}
+
+.SubmitButtonNext{
+	text-align: center;
+	cursor: pointer;
+}
+
+.VideoContentWrap {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.VideoContentWrap p{
+	margin-bottom: 25px;	
+}
+
+.form-control.select{
+     
+}

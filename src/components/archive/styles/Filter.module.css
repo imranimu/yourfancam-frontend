@@ -1,0 +1,99 @@
+.FilterFormWrap{
+    margin-bottom: 50px;
+}
+
+.FilterLeft{
+    float: left;
+    width: 50%;
+}
+
+.SearchFormGroup{
+    background-color: #33343b;
+    position: relative;
+    width: 75%;
+    border-radius: 8px;
+}
+
+.SearchFormGroup input{
+    background-color: transparent;
+    border: none;
+    color: #929396;
+    padding: 0px 15px 0 80px;
+    height: 80px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.SearchFormGroup i{
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    font-size: 25px;
+}
+
+.FilterRight{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.SortFilter{
+    width: 50%;
+    display: inline-block;
+    background: #33343b;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.SortFilter .FormGroup{
+    margin-right: -33px;
+    margin-bottom: 0px;
+}   
+
+.SortFilter .FormGroup label{
+    padding: 28px 10px;
+    color: #959599;
+}
+
+.SortFilter .FormGroup select{
+    background: none;
+    border: none;
+    padding: 0 18px;
+    height: 80px;
+    color: #fff;
+}
+
+.SortFilter .FormGroup select:focus, .SortFilter .FormGroup select:active{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.SortFilter .FormGroup select option{
+    background-color: #33343b;
+    color: #ffffff;
+}
+
+.SortFilter .FormGroup i{
+    color: #03d3f3;
+    position: absolute;
+    right: 60px;
+    top: 29px;
+    font-size: 25px;
+}
+
+.FilterButton{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.FilterButton a{
+    background: #33343b;
+    display: block;
+    padding: 24px 15px;
+    border-radius: 9px;
+} 

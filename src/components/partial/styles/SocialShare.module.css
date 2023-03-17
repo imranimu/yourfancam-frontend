@@ -1,0 +1,30 @@
+ul.SocialShare{
+    margin: 18px 0 0;
+}
+
+ul.SocialShare li{
+    display: inline-block;
+}
+
+ul.SocialShare li a{
+    color: #ffffff;
+    background: #222226;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    display: block;
+    text-align: center;
+    border: 1px solid #595958;
+}
+
+ul.SocialShare li:first-child a{
+    margin-left: 0px;
+}
+
+ul.SocialShare li a i{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2px 0;
+}
